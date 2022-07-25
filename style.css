@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.header-top{
+    display: flex;
+}
+.header-top img{
+    width: 100px;
+    margin-right: 20px
+}
+.header-bottom ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+ul li:last-child{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+main{
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.container{
+    width: 55%;
+    margin: 0 auto;
+}
+h3, .a-area{
+    margin-bottom: 20px;
+}

@@ -56,12 +56,12 @@ $db = [
     <main>
         <div class="container">
             <?php 
-                foreach($db as $array => $q) { 
-                    foreach($q as $quest => $ans)  {?>
-                    
-                    <h3 class="q-area"> <?php echo $quest ?> </h3>
+                foreach($db as $q_array) { 
+                    foreach($q_array as $q => $a)  {?>
 
-                    <div class="a-area"> <?php echo $ans ?> </div>
+                    <h3 class="q-area"> <?php echo $q ?> </h3>
+
+                    <div class="a-area"> <?php echo $a ?> </div>
 
                 <?php }
                 }
